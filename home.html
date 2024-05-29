@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <div class="container">
+      <div class="info-filling">
+         <div class="title">Checkout</div>
+         <div class="buttons">
+            <span><i class='bx bxs-baby-carriage'></i></span>
+            <span><i class='bx bxs-badge-dollar'></i></span>
+            <span><i class='bx bx-check-double'></i></span>
+         </div>
+         <div class="method">
+            <h4>Payment</h4>
+            <div class="options">
+               <div>Paypal <i class="bx bxl-paypal"></i></div>
+               <div>Credit card <i class='bx bxs-credit-card-front' ></i></div>
+               <div>Visa card <i class='bx bxs-credit-card-alt' ></i></div>
+            </div>
+         </div>
+         <form action="#">
+            <div>
+               <label for="name">Cardholder Name: </label>
+            <input type="text" id="name" placeholder="Enter your name...">
+            </div>
+            <div>
+               <label for="number">Number on card: </label>
+               <input type="text" name="" id="number" placeholder="1234 5678 1234">
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+               <span>
+                  <label for="exp">Expiry date:</label>
+                  <input type="date" id="exp">
+               </span>
+               <span style="margin-left: 10px;">
+                  <label for="cvc">CVV: </label>
+                  <input type="password" id="cvc" placeholder="CCV">
+               </span>
+            </div>
+         </form>
+         <div class="btns">
+            <a href="#">Cancel</a>
+            <a href="#">Proceed review</a>
+         </div>
+      </div>
+      <div class="order-summary">
+         <div class="card-info">
+            <h4>In your card</h4>
+            <p>1 Item</p>
+         </div>
+         <div class="order-info">
+            <img src="wqgxsbia.png" alt="">
+            <div>
+               <h4 class="name">Afghan Hand Made Carpet</h4>
+               <span>Size: 6m <sup>2</sup></span>
+               <span>Quantity: 1</span>
+               <span>Price: 1200$</span>
+            </div>
+         </div>
+         <div class="money-info">
+            <div class="check-info"><p>Shipping:</p><p>free</p></div>
+            <div class="check-info"><p>Subtotal:</p><p>1200$</p></div>
+            <div class="check-info"><p>Total:</p><p>1200$</p></div>
+         </div>
+         <div class="icons">
+            <a href="#"><i class='bx bx-minus'></i></a>
+            <a href="#"><i class='bx bx-cart-add'></i></a>
+         </div>
+
+      </div>
+   </div>
+</body>
+</html>
